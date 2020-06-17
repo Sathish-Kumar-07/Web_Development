@@ -1,0 +1,219 @@
+body{
+	background-color: black;
+	font-family: chiller;
+	font-size:20px;
+	
+}
+.first-container{
+	width: 700px;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 20px;
+	box-shadow: 3px 3px 15px 15px steelblue;
+	background-color: black;
+}
+.first-container:hover{
+	box-shadow: 3px 3px 15px 15px red;
+	transition:2s ease;
+}
+.second-container{
+
+	width: 500px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding: 20px;
+	box-shadow: 3px 3px 15px 15px red;
+	background-color: black;
+}
+.second-container:hover{
+	box-shadow: 3px 3px 15px 15px steelblue;
+	transition:2s ease;
+}
+ul{
+
+	margin-left: auto;
+	text-transform: capitalize;
+	margin-right: auto;
+}
+ul li{	
+	padding: 6px;
+	list-style-type: none;
+	display: inline-block;
+	width: 100px;
+	margin: 15px;
+	font-weight: bold;
+	text-align: center;
+	border:1px solid;
+	background-color: white;
+	transition: 3s ease;
+}
+.red:hover{
+	box-shadow: 2px 2px 10px 10px red;
+	background-color: red;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.yellow:hover{
+	box-shadow: 2px 2px 10px 10px yellow;
+	background-color: yellow;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.blue:hover{
+	box-shadow: 2px 2px 10px 10px blue;
+	background-color: blue;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	text-transform: uppercase;
+	margin-right: 20px;
+	transition: 3s ease;
+}
+.pink:hover{
+	box-shadow: 2px 2px 10px 10px pink;
+	background-color: pink;
+	color: white;
+	width: 120px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	transition: 3s ease;
+}
+.green:hover{
+	box-shadow: 2px 2px 10px 10px green;
+	background-color: green;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.orange:hover{
+	box-shadow: 2px 2px 10px 10px orange;
+	background-color: orange;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.cyan:hover{
+	box-shadow: 2px 2px 10px 10px cyan;
+	background-color: cyan;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.violet:hover{
+	box-shadow: 2px 2px 10px 10px violet;
+	background-color: violet;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.gray:hover{
+	box-shadow: 2px 2px 10px 10px gray;
+	background-color: gray;
+	color: white;
+	width: 120px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	transition: 3s ease;
+}
+.brown:hover{
+	box-shadow: 2px 2px 10px 10px brown;
+	background-color: brown;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+
+}
+.teal:hover{
+	box-shadow: 2px 2px 10px 10px teal;
+	background-color: teal;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.maroon:hover{
+	box-shadow: 2px 2px 10px 10px maroon;
+	background-color: maroon;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	text-transform: uppercase;
+	margin-right: 20px;
+	transition: 3s ease;
+}
+.indigo:hover{
+	box-shadow: 2px 2px 10px 10px indigo;
+	background-color: indigo;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	text-transform: uppercase;
+	margin-right: 20px;
+	transition: 3s ease;
+}
+.olive:hover{
+	box-shadow: 2px 2px 10px 10px olive;
+	background-color: olive;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	margin-left: 2px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: 3s ease;
+}
+.silver:hover{
+	box-shadow: 2px 2px 10px 10px silver;
+	background-color: silver;
+	color: white;
+	width: 120px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-left: 2px;
+	margin-right: 20px;
+	transition: 3s ease;
+}
