@@ -1,0 +1,213 @@
+body{
+	background-color: pink;
+}
+.Head-Penguin{
+	position: absolute;
+	width: 180px;
+	height: 150px;
+	top:30%;
+	left:45%;
+	background-color: black;
+	border-radius:50% 50% 45% 45%; 
+}
+.Stomach-Penguin{
+	position: absolute;
+	width: 220px;
+	height: 180px;
+	top:40%;
+	left:43.80%;
+	background-color: black;
+	border-radius:50% 50% 45% 45%; 
+}
+.face-left{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:32.50%;
+	left:45.50%;
+	background-color: white;
+	border-radius:55% 55% 45% 45%; 
+}
+.face-right{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:32.50%;
+	left:49.70%;
+	background-color: white;
+	border-radius:55% 55% 45% 45%; 
+}
+.Out-Stomach-Penguin{
+	position: absolute;
+	width: 212px;
+	height: 157px;
+	top:42%;
+	left:44.05%;
+	background-color: white;
+	border-radius:50% 50% 45% 45%; 
+}
+.Eye-Left{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top:37.50%;
+	left:47.70%;
+	background-color: black;
+	border-radius: 50%;
+}
+.Eye-Right{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top:37.50%;
+	left:52.30%;
+	background-color: black;
+	border-radius: 50%;
+}
+.Eyeball-Left{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top:39%;
+	left:47.70%;
+	background-color: white;
+	border-radius: 50%;
+	animation: eye2 3s linear infinite 1s alternate;
+}
+.Eyeball-Right{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top:39%;
+	left:52.30%;
+	background-color: white;
+	border-radius: 50%;
+	animation: eye1 3s linear infinite 1s alternate;
+}
+@keyframes eye1{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		top:38.5%;
+		left: 53%;
+		transform: rotate(360deg);	
+	}
+}
+@keyframes eye2{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		top:38.5%;
+		left: 48.40%;
+		transform: rotate(0deg);	
+	}
+}
+.Right-Cheeck{
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	top:42.5%;
+	right:45.0%;
+	background-color: pink;
+	border-radius: 50%;
+}
+.Left-Cheeck{
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	top:42.5%;
+	left:46.90%;
+	background-color: pink;
+	border-radius: 50%;
+}
+.Up-Beek{
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	top:42%;
+	left:49.55%;
+	background-color: orange;
+	border-radius: 50%;
+}
+.Down-Beek{
+	position: absolute;
+	width: 35px;
+	height: 18px;
+	top:43.55%;
+	left:49.85%;
+	background-color: orange;
+	border-radius: 50%;
+}
+.Left-Leg{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	top:62%;
+	left:46.70%;
+	background-color: orange;
+	z-index: -1;
+	transform: rotate(-23deg);
+	border-radius: 35% 40% 50% 50%;
+}
+.Right-Leg{
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	top:62%;
+	left:51.5%;
+	background-color: orange;
+	z-index: -1;
+	transform: rotate(23deg);
+	border-radius: 35% 40% 50% 50%;
+}
+.Left-Hand{
+	position: absolute;
+	width: 150px;
+	height: 65px;
+	top:41.8%;
+	left:40%;
+	background-color:black;
+	z-index: -1;
+	transform: rotate(35deg);
+	border-radius: 30% 30% 30% 120%;
+	animation: wave linear 2s infinite alternate;
+}
+@keyframes wave{
+	0%{
+		transform: rotate(35deg);
+	}
+	30%{
+		transform: rotate(15deg);
+	}
+	50%{
+		transform: rotate(35deg);
+	}
+	80%{
+		transform: rotate(15deg);
+	}
+	100%{
+		transform: rotate(35deg);
+	}
+}
+.Right-Hand{
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	top:45.5%;
+	left:53.6%;
+	background-color:black;
+	z-index: -1;
+	transform: rotate(30deg);
+	border-radius: 30% 30% 120% 30%;
+}
+.Text{
+	font-size: 60px;
+	margin-left:42%;
+	margin-top:37%;
+	text-shadow:10px 40px 5px black;	
+	font-weight: bold;
+	font-style: italic;
+	font-family: Lucida Calligraphy;
+}
