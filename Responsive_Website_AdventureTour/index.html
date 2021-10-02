@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li ><a class="active"  href="#">Home</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li ><a class="ctn" href="#">Contact</a></li>
+        </ul>
+        <img class =" menu-btn" src="img/menu-btn.png"/>
+    </nav>
+    <header>
+        <div class ="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.png">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut deserunt dignissimos dolorum earum eius, esse et ex fugiat harum hic iste nam, obcaecati provident quasi qui, sint ut voluptatibus!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/img2.png">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut deserunt dignissimos dolorum earum eius, esse et ex fugiat harum hic iste nam, obcaecati provident quasi qui, sint ut voluptatibus!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="explore" class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium amet beatae debitis eligendi explicabo fugiat harum incidunt, iste modi non odit perferendis quam, repellat repellendus tempore totam ullam veritatis.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section id= "tours" class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque magni minus nostrum provident sapiente. Assumenda cumque debitis deserunt doloribus exercitationem, ipsa magni minus, molestias optio placeat sit velit veniam.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png">
+                    <img src="./img/img4.png">
+                    <img src="./img/img5.png">
+                    <img src="./img/img6.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Bengaluru, Karnataka, INDIA | Phone: 98-7456-3210| Email: contact@gamil.com</p>
+        <p>Copyright @ 2021 Outdoor Adventure</p>
+
+    </footer>
+    <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navlink = document.querySelector(".nav-link")
+        menuBtn.addEventListener('click',() =>{
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
